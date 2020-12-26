@@ -1,1 +1,2 @@
-web: python3.7 fcx_trader_test.py
+web: python fcx_trader_test.py
+worker: python -log 30
