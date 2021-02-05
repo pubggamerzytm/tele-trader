@@ -1,6 +1,6 @@
 # Bot token provided by BotFather
 
- TOKEN_TEST = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs"
+# TOKEN_TEST = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs"
 from sqlalchemy import create_engine
 
 
