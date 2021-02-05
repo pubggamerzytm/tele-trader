@@ -1,21 +1,21 @@
 # Bot token provided by BotFather
 
-# TOKEN_TEST = "852053528:AAHL_ryUUJ1JOhenzmI0WDiayAnxxqGFmyU"
+# TOKEN_TEST = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs"
 from sqlalchemy import create_engine
 
 
-# PUBLIC_KEY = "953b0c668c9d75c2d3da984f62a00fd269dc66c6da701250a0d7e14b52449183"
-# PRIVATE_KEY = "c68f21F77B13FE4D6617EfcD0287c036da7A3aB1A5f3e870fb179E940F5839Dd"
-# Merchant_ID = "c4baf6ef23be73a2da7fa0531b2df323"
-# IPN_secret = "coinpaymentspeaks"
-# ADMIN_ID = 1053579181
+ PUBLIC_KEY = "9fc5e16e1f0acc50f494815ac08ba9eac39a6097227902e57691dc5c76d756f2"
+ PRIVATE_KEY = "f80798E3C03b12d72a5c3e6987A1fd469F14e04d303cF7e9F1E257D475135390"
+ Merchant_ID = "0a9989dabbcfdde258c70f33bb3ca123"
+ IPN_secret = "premiumidseller"
+ ADMIN_ID = 1053579181
 
 DEBUG = not True
 
 if DEBUG==False:
     print("\033[1;35;40m Running in production mode")
-    TOKEN = "1137661512:AAEig943WBK2aCBhlrDxgpN6Tl__lpxOMUY" #FCX trading bot
-    URL = 'https://fcx-trading.herokuapp.com/'
+    TOKEN = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs" #FCX trading bot
+    URL = 'https://teletradingg.herokuapp.com/'
     try:
         import os
         DATABASE_URL = os.environ['DATABASE_URL']
@@ -30,9 +30,9 @@ if DEBUG==False:
 
 else:
     print("\033[1;32;40m Running in Development mode")
-    TOKEN = "852053528:AAHL_ryUUJ1JOhenzmI0WDiayAnxxqGFmyU"
+    TOKEN = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs"
 
-    # TOKEN = "746406709:AAHGsGOKxHwPOhRMdUOM5JNKsVxI2cCTbyQ" #fcxtrader bot
+    # TOKEN = "1607441057:AAGYbipu1DURhbrQcJsBShWWaHVrwHdyTEs" #fcxtrader bot
     URL = "https://3a7a746b.ngrok.io/"
     DATABASE_URL = 'postgres+psycopg2://postgres:postgres@localhost:5432'
     ADMIN_ID = 1053579181
