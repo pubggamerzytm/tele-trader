@@ -1,2 +1,2 @@
-web: python fcx_trader_test.py
-worker: python -log 30
+worker: python fcx_trader_test.py
+worker: python -m features -log 20
